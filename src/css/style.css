@@ -1,0 +1,166 @@
+:root {
+	--main-font: 'Montserrat', sans-serif;
+	--secondary-font: 'Roboto Slab', sans-serif;
+	--default-font-size: 18px;
+}
+body {
+	font-family: var(--main-font);
+	font-size: var(--default-font-size);
+	margin: 0;
+	text-align: center;
+}
+h1 {
+	font-weight: 600;
+	text-align: center;
+	font-size: 70px;
+	color: white;
+}
+h2 {
+	font-weight: 400;
+	font-size: 18px;
+}
+h3 {
+	font-weight: 300;
+	font-size: 18px;
+}
+h4 {
+	font-family: var(--secondary-font);
+	color: white;
+	font-weight: 200;
+	font-style: italic;
+	line-height: 35px;
+}
+a {
+	font-weight: 300;
+	color: #959595;
+}
+.quote {
+	font-size: 25px;
+	font-family: 'Caveat', cursive;
+}
+.content-section,
+img {
+	width: 100%;
+	margin-bottom: 35px;
+	margin-top: 35px;
+}
+.sign {
+	font-family: var(--main-font);
+	font-style: normal;
+	font-weight: 600;
+	color: #82c341;
+	font-size: 18px;
+}
+.insert-photo {
+	background-image: url('/src/img/operate.jpg');
+	background-repeat: no-repeat;
+	background-position: 50% 50%; /* Sets reference point to scale from */
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	position: relative;
+	padding: 0;
+	height: 600px;
+	max-width: 810px;
+	margin: 0 auto;
+}
+.header {
+	background-image: url('/src/img/bttg1920x866.jpg');
+	background-repeat: no-repeat;
+	background-position: 50% 50%; /* Sets reference point to scale from */
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	position: relative;
+	padding: 0;
+	height: 866px;
+	width: auto;
+}
+.sub-header {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.sub-header br {
+	line-height: 15px;
+}
+.text-content {
+	max-width: 810px;
+	margin: 0 auto;
+}
+.content-section {
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+}
+.white-section {
+	background-color: white;
+}
+.green-section {
+	background-color: #002216;
+}
+.footer-map iframe {
+	width: 100% !important;
+	height: 450px !important;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+	body {
+		text-align: left;
+	}
+	h1 {
+		font-weight: 600;
+		text-align: center;
+		font-size: 61px;
+		color: white;
+	}
+	h2 {
+		font-size: 40px;
+	}
+	h3 {
+		font-size: 40px;
+	}
+	h4 {
+		font-size: 40px;
+		line-height: 60px;
+		font-weight: 300;
+	}
+	.sign {
+		font-size: 40px;
+		font-weight: 300;
+	}
+	.footer-map iframe {
+		width: 100% !important;
+		height: 1000px !important;
+	}
+	.text-content {
+		width: 95%;
+		margin-left: 2rem;
+		margin-right: 2rem;
+	}
+	.header {
+		background-image: url('/src/img/bttgmobile.jpg');
+	}
+	.insert-photo {
+		background-image: url('/src/img/operate.jpg');
+		background-repeat: no-repeat;
+		background-position: 50% 50%; /* Sets reference point to scale from */
+
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		position: relative;
+		padding: 0;
+		height: 866px;
+		width: auto;
+		max-width: none;
+	}
+	.quote {
+		font-size: 55px;
+	}
+}
