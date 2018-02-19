@@ -75,7 +75,9 @@ In addition to the purpose-built nursery, the expertly designed garden and exten
       <h3>
       </h3>
   </div>
+<div class="content-section white-section text-content">
 
+</div>
   <div class="footer-map">
 <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d4213.681531654329!2d-2.3658675800759457!3d53.40503280906422!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x487bac82035e2d1d%3A0x505fcfcdb45662a0!2sSinderland+Rd%2C+Timperley%2C+Altrincham+WA14+5JU!3m2!1d53.4047681!2d-2.362697!5e0!3m2!1sen!2suk!4v1518019319661" width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
   </div>
