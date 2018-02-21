@@ -107,7 +107,121 @@ img {
 	width: 100% !important;
 	height: 450px !important;
 }
+.text-danger {
+	color: red;
+}
+textarea {
+	border: none;
+	overflow: auto;
+	outline: none;
 
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	resize: none;
+}
+.form-container {
+	width: 100%;
+}
+.form-left {
+	float: left;
+	width: 47%;
+	margin-right: 3%;
+}
+.form-right {
+	float: left;
+	width: 50%;
+}
+
+.form-left input {
+	width: 100%;
+	height: 25px;
+	margin-bottom: 10px;
+	padding-left: 10px;
+}
+.form-right textarea {
+	width: 100%;
+	height: 195px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+input,
+textarea {
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 3px;
+	border-color: #959595;
+}
+input[type='text'] {
+	font-family: var(--main-font);
+}
+input[type='email'] {
+	font-family: var(--main-font);
+}
+textarea {
+	font-family: var(--main-font);
+}
+input::-webkit-input-placeholder {
+	font-family: var(--main-font), Arial, Helvetica, sans-serif;
+	margin-left: 8px;
+}
+
+input:-ms-input-placeholder {
+	font-family: var(--main-font), Arial, Helvetica, sans-serif;
+	margin-left: 8px;
+}
+
+input:-moz-placeholder {
+	font-family: var(--main-font), Arial, Helvetica, sans-serif;
+	margin-left: 8px;
+}
+
+input::-moz-placeholder {
+	font-family: var(--main-font), Arial, Helvetica, sans-serif;
+	margin-left: 8px;
+}
+
+textarea::-webkit-input-placeholder {
+	font-family: var(--main-font), Arial, Helvetica, sans-serif;
+	margin-left: 8px;
+}
+
+textarea:-ms-input-placeholder {
+	font-family: var(--main-font), Arial, Helvetica, sans-serif;
+	margin-left: 8px;
+}
+
+textarea:-moz-placeholder {
+	font-family: var(--main-font), Arial, Helvetica, sans-serif;
+	margin-left: 8px;
+}
+
+textarea::-moz-placeholder {
+	font-family: var(--main-font), Arial, Helvetica, sans-serif;
+	margin-left: 8px;
+}
+
+.send-form {
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 3px;
+	background-color: #002216;
+	color: white;
+	border-color: #002216;
+	font-family: var(--main-font);
+	text-transform: uppercase;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	width: 103%;
+}
+.send-form:hover {
+	background-color: #82c341;
+	border-color: #82c341;
+	cursor: pointer;
+	transition: background-color 0.2s linear, border-color 0.2s linear;
+}
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
 	body {
 		text-align: left;
@@ -162,5 +276,29 @@ img {
 	}
 	.quote {
 		font-size: 55px;
+	}
+	.form-left {
+		width: 110%;
+	}
+	.form-right {
+		width: 109%;
+	}
+	input {
+		font-size: 35px;
+	}
+	.form-right textarea {
+		height: 700px;
+	}
+	.form-left input {
+		height: 65px;
+	}
+	textarea {
+		font-size: 35px;
+	}
+	input {
+		height: 80px;
+	}
+	.send-form {
+		width: 112%;
 	}
 }
