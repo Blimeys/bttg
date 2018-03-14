@@ -47,7 +47,7 @@ if (!$errName && !$errEmail && !$errMessage && !$errAddress && !$errPhone) {
 <html>
 
 <head>
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,400i,500,500i,600,700|Roboto+Slab:100,300,400|Caveat" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,400i,500,500i,600,700|Roboto+Slab:100,300,400|Caveat|Open+Sans" rel="stylesheet">
 
   <link href="/src/css/style.css" rel="stylesheet">
   <meta charset="utf-8">
@@ -61,28 +61,36 @@ if (!$errName && !$errEmail && !$errMessage && !$errAddress && !$errPhone) {
     </div>
   </div>
   <div class="content-section white-section text-content">
+    <h2>
+    Back to the Garden Childcare is a brand new day nursery, opening in Altrincham in late July 2018. The nursery is located on Sinderland Road in Broadheath and will offer 120 places for children ranging in age from 3 months old up to the age of five.
+</h2>
+<h3>
+    Back to the Garden is a joint venture between the McGoff Group and Stewart and Jeannie Pickering, the founders of the highly successful kidsunlimited brand. Both parties bring a wealth of knowledge and experience to the partnership, and the launch of Back to the Garden later this year will deliver child-centred care and education equal to the highest quality available.
+</h3>
+<h3>
+    With an innovative and  creative approach to early childhood education, drawing inspiration from the Reggio Emilia pre-schools and the Forest Schools’ philosophy, at Back to the Garden Childcare we are creating an environment which encourages collaboration, communication and exploration through a child-led approach with the adult taking the role of mentor and guide.
+</h3>
+<h3>
+    Our philosophy focuses on the health and wellbeing of each and every child with a specially designed menu, working with nutritionalists and wherever possible, using organic or locally grown produce.
+</h3>
+<h3>
+    It is the impressive external space and the nursery’s emphasis on health and wellbeing that will form the heart of Back to the Garden. The beautiful landscaped setting will provide an opportunity for the children to explore and discover in a natural, safe and stimulating environment, benefiting from a gardening and planting patch, a large playground and European-inspired all-weather play areas.
+</h3>
+    <h2>Construction of the nursery will be complete in July 2018.</h2>
 
-		    <h2>
-		Opening Date: August 2018 <br /><br />
-		The McGoff Group is thrilled to announce its partnership with Stewart and Jeannie Pickering, the duo and founders of the highly successful kidsunlimited brand, and the launch of a brand new day nursery in Altrincham; Back to the Garden Childcare.
-	</h2>
-	<h3>The new venture marks the return of Stewart and Jeannie to the child care sector, with the couple re-entering the marketplace after 10 years following the sale of kidsunlimited in 2008. Whilst at the helm of kidsunlimited, they opened more than 50 full day care nurseries, which were in short supply, and introduced the first on site ‘workplace’ nurseries in the North West for firms such as HSBC.
-<br /><br />
-		The concept for Back to the Garden will challenge the current childcare provision in the country. With new build there is an opportunity to significantly improve the economic footprint of nurseries with a design that is environmentally, economically and even socially more sustainable. The setting of the nursery is also significant. Back to the Garden will occupy a spacious and safe corner of the site, with the location strategically chosen to answer national Government calls to position child care facilities away from busy main roads, where elevated levels of pollution are more and more often being linked to hindered general development and the increase in childhood asthma, plus other health related issues. According to a Greenpeace investigation, 35 nurseries in Greater Manchester are located close to roads that break the legal pollution limits.
-		In addition to the purpose-built nursery, the expertly designed garden and extensive external space will provide an opportunity for children to explore and discover in a natural, safe and stimulating environment, benefiting from a beautiful landscaped setting, a gardening and planting patch, large playground and all-weather play areas. It is this emphasis on outdoor play and the setting of the nursery that will stand Back to the Garden apart from competitors.
-		<br /><br /></h3><h2>Build Completes: July 2018</h2>
 
 
 </div>
 <div class="insert-photo">
 
 </div>
-<div class="content-section white-section text-content">
+<!-- <div class="content-section white-section text-content">
 <h3>
 In addition to the purpose-built nursery, the expertly designed garden and extensive external space will provide an opportunity for children to explore and discover in a natural, safe and stimulating environment, benefiting from a beautiful landscaped setting, a gardening and planting patch, large playground and all-weather play areas. It is this emphasis on outdoor play and the setting of the nursery that will stand Back to the Garden apart from competitors.
 </h3>
-  </div>
-
+</div> -->
+<br />
+<br /><br />
   <div class="green-section content-section ">
     <div class="text-content">
       <h4 class="quote">
@@ -95,7 +103,7 @@ In addition to the purpose-built nursery, the expertly designed garden and exten
 <br />
         <span class="sign">Stewart Pickering, Co-Founder of Back to the Garden Childcare</span>
 <br /><br/>
-        “We want and will strive to provide the very best child care in the North West, and incorporated into the heart of the design of the nursery and its location are concerning issues regarding air pollution, which causes health problems and affects children’s development.”
+      “We want to provide the very best child-centred care and highest levels of education in the North West.”
 <br />
         <span class="sign">Jeannie Pickering, Co-Founder of Back to the Garden Childcare</span>
 </h4>
@@ -127,16 +135,17 @@ In addition to the purpose-built nursery, the expertly designed garden and exten
 	</form>
 	<h3>
 		<br />
-		<br />
-		For all other enquiries please contact
-		<br>
-		Kay Johnson on 07972 732 477
-		<br>
-		<a>
-			Kay.Johnson@mcgoffgroup.com
-		</a>
+		For Customer enquiries please contact <a class="mailer" href="mailto:kay.johynson@mcgoffgroup.com">Kay Johnson</a>
+		or call  <a class="mailer" href="tel:+447972732477">07972732477</a>
 		<h3>
+      <br />
+      For Recruitment enquiries please contact Laura Cullen <a class="mailer" href="mailto:laura.cullen@mcgoffgroup.com">Laura Cullen</a>
 		</h3>
+    <h3>
+      <br />
+
+      For Media enquiries please contact Gemma Carey <a class="mailer" href="mailto:gemma@philosophypr.co.uk">Gemma Carey</a>
+    </h3>
 </div>
   </div>
 

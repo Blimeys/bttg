@@ -35,8 +35,9 @@ a {
 	color: #959595;
 }
 .quote {
-	font-size: 25px;
-	font-family: 'Caveat', cursive;
+	font-size: 18px;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 23px;
 }
 .content-section,
 img {
@@ -48,8 +49,9 @@ img {
 	font-family: var(--main-font);
 	font-style: normal;
 	font-weight: 600;
-	color: #82c341;
+	color: #002216;
 	font-size: 18px;
+	line-height: 2.5rem;
 }
 .insert-photo {
 	background-image: url('/src/img/operate.jpg');
@@ -90,7 +92,7 @@ img {
 	line-height: 15px;
 }
 .text-content {
-	max-width: 810px;
+	max-width: 910px;
 	margin: 0 auto;
 }
 .content-section {
@@ -101,7 +103,7 @@ img {
 	background-color: white;
 }
 .green-section {
-	background-color: #002216;
+	background-color: #82c341;
 }
 .footer-map iframe {
 	width: 100% !important;
@@ -180,7 +182,13 @@ input::-moz-placeholder {
 	font-family: var(--main-font), Arial, Helvetica, sans-serif;
 	margin-left: 8px;
 }
-
+.mailer {
+	text-decoration: none;
+	transition: color 0.2s linear;
+}
+.mailer:hover {
+	color: #82c341;
+}
 textarea::-webkit-input-placeholder {
 	font-family: var(--main-font), Arial, Helvetica, sans-serif;
 	margin-left: 8px;
@@ -275,7 +283,8 @@ textarea::-moz-placeholder {
 		max-width: none;
 	}
 	.quote {
-		font-size: 55px;
+		font-size: 20px;
+		line-height: 4rem;
 	}
 	.form-left {
 		width: 110%;
